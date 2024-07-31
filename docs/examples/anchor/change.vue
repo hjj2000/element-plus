@@ -32,6 +32,6 @@ const lang = useLang()
 const locale = computed(() => anchorLocale[lang.value])
 
 const handleChange = (href: string) => {
-  console.log(`anchor change: ${href}`)
+  console.log(locale)
 }
 </script>
